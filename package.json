@@ -1,0 +1,13 @@
+{
+  "name": "ribbon-render",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "dependencies": {
+    "sharp": "^0.33.4"
+  },
+  "scripts": {
+    "dev": "vercel dev",
+    "start": "node api/render.js"
+  }
+}
